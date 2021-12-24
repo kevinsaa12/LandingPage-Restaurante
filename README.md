@@ -12,4 +12,7 @@ git log --oneline: historia commit resumido
 
 git log --oneline --graph : historial para ver todos los branch
 
-git checkout "id del commit"
+git checkout "id del commit" ir a un commit en especifico 
+
+git reset --hard HEAD~1 : ir al commit anterior 
+git checkout HEAD~1 :ir al commit anterior 
